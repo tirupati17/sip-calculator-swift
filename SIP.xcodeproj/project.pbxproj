@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D59ECADD1C93EA0D0043CFF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59ECADC1C93EA0D0043CFF3 /* AppDelegate.swift */; };
+		D59ECAE21C93EA0D0043CFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59ECAE01C93EA0D0043CFF3 /* Main.storyboard */; };
+		D59ECAE41C93EA0E0043CFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59ECAE31C93EA0E0043CFF3 /* Assets.xcassets */; };
+		D59ECAE71C93EA0E0043CFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59ECAE51C93EA0E0043CFF3 /* LaunchScreen.storyboard */; };
+		D59ECAF21C93EA0E0043CFF3 /* SIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59ECAF11C93EA0E0043CFF3 /* SIPTests.swift */; };
+		D59ECAFD1C93EA0E0043CFF3 /* SIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59ECAFC1C93EA0E0043CFF3 /* SIPUITests.swift */; };
+		D59ECB361C93F1E30043CFF3 /* icon_sip_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = D59ECB351C93F1E30043CFF3 /* icon_sip_1024.png */; };
+		D59ECB381C93FAA00043CFF3 /* SipCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59ECB371C93FAA00043CFF3 /* SipCalculatorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D59ECAEE1C93EA0E0043CFF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59ECAD11C93EA0D0043CFF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59ECAD81C93EA0D0043CFF3;
+			remoteInfo = SIP;
+		};
+		D59ECAF91C93EA0E0043CFF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59ECAD11C93EA0D0043CFF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59ECAD81C93EA0D0043CFF3;
+			remoteInfo = SIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D59ECAD91C93EA0D0043CFF3 /* SIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59ECADC1C93EA0D0043CFF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D59ECAE11C93EA0D0043CFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D59ECAE31C93EA0E0043CFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D59ECAE61C93EA0E0043CFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D59ECAE81C93EA0E0043CFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59ECAED1C93EA0E0043CFF3 /* SIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59ECAF11C93EA0E0043CFF3 /* SIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPTests.swift; sourceTree = "<group>"; };
+		D59ECAF31C93EA0E0043CFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59ECAF81C93EA0E0043CFF3 /* SIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59ECAFC1C93EA0E0043CFF3 /* SIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPUITests.swift; sourceTree = "<group>"; };
+		D59ECAFE1C93EA0E0043CFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59ECB351C93F1E30043CFF3 /* icon_sip_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sip_1024.png; sourceTree = "<group>"; };
+		D59ECB371C93FAA00043CFF3 /* SipCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SipCalculatorViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59ECAD61C93EA0D0043CFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59ECAEA1C93EA0E0043CFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59ECAF51C93EA0E0043CFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59ECAD01C93EA0D0043CFF3 = {
+			isa = PBXGroup;
+			children = (
+				D59ECADB1C93EA0D0043CFF3 /* SIP */,
+				D59ECAF01C93EA0E0043CFF3 /* SIPTests */,
+				D59ECAFB1C93EA0E0043CFF3 /* SIPUITests */,
+				D59ECADA1C93EA0D0043CFF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59ECADA1C93EA0D0043CFF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59ECAD91C93EA0D0043CFF3 /* SIP.app */,
+				D59ECAED1C93EA0E0043CFF3 /* SIPTests.xctest */,
+				D59ECAF81C93EA0E0043CFF3 /* SIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59ECADB1C93EA0D0043CFF3 /* SIP */ = {
+			isa = PBXGroup;
+			children = (
+				D59ECADC1C93EA0D0043CFF3 /* AppDelegate.swift */,
+				D59ECB371C93FAA00043CFF3 /* SipCalculatorViewController.swift */,
+				D59ECB341C93F1E30043CFF3 /* Resources */,
+				D59ECAE01C93EA0D0043CFF3 /* Main.storyboard */,
+				D59ECAE31C93EA0E0043CFF3 /* Assets.xcassets */,
+				D59ECAE51C93EA0E0043CFF3 /* LaunchScreen.storyboard */,
+				D59ECAE81C93EA0E0043CFF3 /* Info.plist */,
+			);
+			path = SIP;
+			sourceTree = "<group>";
+		};
+		D59ECAF01C93EA0E0043CFF3 /* SIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				D59ECAF11C93EA0E0043CFF3 /* SIPTests.swift */,
+				D59ECAF31C93EA0E0043CFF3 /* Info.plist */,
+			);
+			path = SIPTests;
+			sourceTree = "<group>";
+		};
+		D59ECAFB1C93EA0E0043CFF3 /* SIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D59ECAFC1C93EA0E0043CFF3 /* SIPUITests.swift */,
+				D59ECAFE1C93EA0E0043CFF3 /* Info.plist */,
+			);
+			path = SIPUITests;
+			sourceTree = "<group>";
+		};
+		D59ECB341C93F1E30043CFF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D59ECB351C93F1E30043CFF3 /* icon_sip_1024.png */,
+			);
+			name = Resources;
+			path = SIP/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59ECAD81C93EA0D0043CFF3 /* SIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59ECB011C93EA0E0043CFF3 /* Build configuration list for PBXNativeTarget "SIP" */;
+			buildPhases = (
+				D59ECAD51C93EA0D0043CFF3 /* Sources */,
+				D59ECAD61C93EA0D0043CFF3 /* Frameworks */,
+				D59ECAD71C93EA0D0043CFF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIP;
+			productName = SIP;
+			productReference = D59ECAD91C93EA0D0043CFF3 /* SIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D59ECAEC1C93EA0E0043CFF3 /* SIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59ECB041C93EA0E0043CFF3 /* Build configuration list for PBXNativeTarget "SIPTests" */;
+			buildPhases = (
+				D59ECAE91C93EA0E0043CFF3 /* Sources */,
+				D59ECAEA1C93EA0E0043CFF3 /* Frameworks */,
+				D59ECAEB1C93EA0E0043CFF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59ECAEF1C93EA0E0043CFF3 /* PBXTargetDependency */,
+			);
+			name = SIPTests;
+			productName = SIPTests;
+			productReference = D59ECAED1C93EA0E0043CFF3 /* SIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D59ECAF71C93EA0E0043CFF3 /* SIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59ECB071C93EA0E0043CFF3 /* Build configuration list for PBXNativeTarget "SIPUITests" */;
+			buildPhases = (
+				D59ECAF41C93EA0E0043CFF3 /* Sources */,
+				D59ECAF51C93EA0E0043CFF3 /* Frameworks */,
+				D59ECAF61C93EA0E0043CFF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59ECAFA1C93EA0E0043CFF3 /* PBXTargetDependency */,
+			);
+			name = SIPUITests;
+			productName = SIPUITests;
+			productReference = D59ECAF81C93EA0E0043CFF3 /* SIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59ECAD11C93EA0D0043CFF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CelerStudio;
+				TargetAttributes = {
+					D59ECAD81C93EA0D0043CFF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 495XWEJ924;
+					};
+					D59ECAEC1C93EA0E0043CFF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D59ECAD81C93EA0D0043CFF3;
+					};
+					D59ECAF71C93EA0E0043CFF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D59ECAD81C93EA0D0043CFF3;
+					};
+				};
+			};
+			buildConfigurationList = D59ECAD41C93EA0D0043CFF3 /* Build configuration list for PBXProject "SIP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59ECAD01C93EA0D0043CFF3;
+			productRefGroup = D59ECADA1C93EA0D0043CFF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59ECAD81C93EA0D0043CFF3 /* SIP */,
+				D59ECAEC1C93EA0E0043CFF3 /* SIPTests */,
+				D59ECAF71C93EA0E0043CFF3 /* SIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59ECAD71C93EA0D0043CFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59ECAE71C93EA0E0043CFF3 /* LaunchScreen.storyboard in Resources */,
+				D59ECAE41C93EA0E0043CFF3 /* Assets.xcassets in Resources */,
+				D59ECB361C93F1E30043CFF3 /* icon_sip_1024.png in Resources */,
+				D59ECAE21C93EA0D0043CFF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59ECAEB1C93EA0E0043CFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59ECAF61C93EA0E0043CFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59ECAD51C93EA0D0043CFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59ECADD1C93EA0D0043CFF3 /* AppDelegate.swift in Sources */,
+				D59ECB381C93FAA00043CFF3 /* SipCalculatorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59ECAE91C93EA0E0043CFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59ECAF21C93EA0E0043CFF3 /* SIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59ECAF41C93EA0E0043CFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59ECAFD1C93EA0E0043CFF3 /* SIPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D59ECAEF1C93EA0E0043CFF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59ECAD81C93EA0D0043CFF3 /* SIP */;
+			targetProxy = D59ECAEE1C93EA0E0043CFF3 /* PBXContainerItemProxy */;
+		};
+		D59ECAFA1C93EA0E0043CFF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59ECAD81C93EA0D0043CFF3 /* SIP */;
+			targetProxy = D59ECAF91C93EA0E0043CFF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D59ECAE01C93EA0D0043CFF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59ECAE11C93EA0D0043CFF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D59ECAE51C93EA0E0043CFF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59ECAE61C93EA0E0043CFF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D59ECAFF1C93EA0E0043CFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D59ECB001C93EA0E0043CFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59ECB021C93EA0E0043CFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D59ECB031C93EA0E0043CFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D59ECB051C93EA0E0043CFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIP.app/SIP";
+			};
+			name = Debug;
+		};
+		D59ECB061C93EA0E0043CFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIP.app/SIP";
+			};
+			name = Release;
+		};
+		D59ECB081C93EA0E0043CFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SIP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D59ECB091C93EA0E0043CFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SIP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59ECAD41C93EA0D0043CFF3 /* Build configuration list for PBXProject "SIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59ECAFF1C93EA0E0043CFF3 /* Debug */,
+				D59ECB001C93EA0E0043CFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59ECB011C93EA0E0043CFF3 /* Build configuration list for PBXNativeTarget "SIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59ECB021C93EA0E0043CFF3 /* Debug */,
+				D59ECB031C93EA0E0043CFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59ECB041C93EA0E0043CFF3 /* Build configuration list for PBXNativeTarget "SIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59ECB051C93EA0E0043CFF3 /* Debug */,
+				D59ECB061C93EA0E0043CFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59ECB071C93EA0E0043CFF3 /* Build configuration list for PBXNativeTarget "SIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59ECB081C93EA0E0043CFF3 /* Debug */,
+				D59ECB091C93EA0E0043CFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59ECAD11C93EA0D0043CFF3 /* Project object */;
+}
