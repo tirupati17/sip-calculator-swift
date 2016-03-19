@@ -8,12 +8,14 @@
 
 import Foundation
 import UIKit
+import GoogleMobileAds
 
 class SipCalculatorViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     @IBOutlet var tableView: UITableView!
     @IBOutlet var netReturnLable: UILabel!
     @IBOutlet var actualAmountLable: UILabel!
     @IBOutlet var rolledOverLable: UILabel!
+    @IBOutlet weak var bannerView: GADBannerView!
 
     var periodValue: NSInteger = 0;
     var rorValue: Float = 0;
@@ -21,6 +23,15 @@ class SipCalculatorViewController: UIViewController, UITableViewDelegate, UITabl
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "SIP Calculator";
+    }
+
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(true)
+        self.applyRedBorderOnAmount();
+        
+        bannerView.adUnitID = "ca-app-pub-4961045217927492/5186496364"
+        bannerView.rootViewController = self
+        bannerView.loadRequest(GADRequest())
     }
     
     func returnCellForIndexPath(indexPath : NSIndexPath) -> UITableViewCell {
@@ -146,10 +157,10 @@ class SipCalculatorViewController: UIViewController, UITableViewDelegate, UITabl
         let rateOfReturnMonthly = Double(rateOfReturn/12);
 
         let netReturn = round(-self.futureSipValue(rateOfReturnMonthly, nper: periodMonthly, pmt: Double(amount), pv: 0, type: 1));
-        self.netReturnLable.text = String(format : "₹%.0f", floor(netReturn.isNaN ? 0 : netReturn))
+        self.netReturnLable.text = String(format : "%.0f", floor(netReturn.isNaN ? 0 : netReturn))
 
         let actualAmout = (Double(period) * 12 * Double(amount));
-        self.actualAmountLable.text = String(format : "₹%.0f", floor(actualAmout.isNaN ? 0 : actualAmout))
+        self.actualAmountLable.text = String(format : "%.0f", floor(actualAmout.isNaN ? 0 : actualAmout))
 
         let finalValue = self.futureSipValue(Double(rateOfReturn), nper: 1/12,pmt: 0, pv: -100, type: 1)-100
         let finalAmount = round(futureSipValue(finalValue, nper: Double(period) * 12, pmt: Double(amount), pv: 0, type: 1))
@@ -163,6 +174,11 @@ class SipCalculatorViewController: UIViewController, UITableViewDelegate, UITabl
         return true
     }
 
+    func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
+        self.tableView.scrollRectToVisible(CGRectMake(0, 48, self.tableView.frame.size.width, self.tableView.frame.size.width), animated: true)
+        return true;
+    }
+    
     func futureSipValue(returnspercent: Double, nper: Double, pmt: Double, pv: Double, type: Double) -> Double {
         let rate: Double = returnspercent/100
         var finalValue: Double = 0;
@@ -173,6 +189,16 @@ class SipCalculatorViewController: UIViewController, UITableViewDelegate, UITabl
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         self.clearRedBorderOnAmount();
         let filtered = string.componentsSeparatedByCharactersInSet(NSCharacterSet(charactersInString:"0123456789").invertedSet).joinWithSeparator("")
-        return string == filtered
+        if (string == filtered) {
+            var txtAfterUpdate: NSString = self.returnAmountField().text! as NSString
+            txtAfterUpdate = txtAfterUpdate.stringByReplacingCharactersInRange(range, withString: string)
+            
+            let amount = NSNumberFormatter().numberFromString(txtAfterUpdate == "" ? "0" : txtAfterUpdate as String)!.floatValue
+            self.calculateNetReturn(amount, period: self.periodValue, rateOfReturn: self.rorValue)
+
+            return true
+        } else {
+            return false
+        }
     }
 }

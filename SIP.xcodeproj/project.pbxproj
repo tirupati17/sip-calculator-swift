@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		901B58F1CF66459947E352CA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD9F3B2FD48D6AC13A7850D /* libPods.a */; };
 		D59ECADD1C93EA0D0043CFF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59ECADC1C93EA0D0043CFF3 /* AppDelegate.swift */; };
 		D59ECAE21C93EA0D0043CFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59ECAE01C93EA0D0043CFF3 /* Main.storyboard */; };
 		D59ECAE41C93EA0E0043CFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59ECAE31C93EA0E0043CFF3 /* Assets.xcassets */; };
@@ -15,6 +16,9 @@
 		D59ECAFD1C93EA0E0043CFF3 /* SIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59ECAFC1C93EA0E0043CFF3 /* SIPUITests.swift */; };
 		D59ECB361C93F1E30043CFF3 /* icon_sip_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = D59ECB351C93F1E30043CFF3 /* icon_sip_1024.png */; };
 		D59ECB381C93FAA00043CFF3 /* SipCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59ECB371C93FAA00043CFF3 /* SipCalculatorViewController.swift */; };
+		D5BE48961C9C401E00C36DD4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BE48931C9C401E00C36DD4 /* Default-568h@2x.png */; };
+		D5BE48971C9C401E00C36DD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BE48941C9C401E00C36DD4 /* Default.png */; };
+		D5BE48981C9C401E00C36DD4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BE48951C9C401E00C36DD4 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FD6B4FF56837727EAB0B54A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD9F3B2FD48D6AC13A7850D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDA93E0E290A54626BE372B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D59ECAD91C93EA0D0043CFF3 /* SIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59ECADC1C93EA0D0043CFF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D59ECAE11C93EA0D0043CFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,10 @@
 		D59ECAFE1C93EA0E0043CFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D59ECB351C93F1E30043CFF3 /* icon_sip_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sip_1024.png; sourceTree = "<group>"; };
 		D59ECB371C93FAA00043CFF3 /* SipCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SipCalculatorViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		D5BE48931C9C401E00C36DD4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D5BE48941C9C401E00C36DD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D5BE48951C9C401E00C36DD4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D5E5E7C81C9D1D3B004D6620 /* SIP-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SIP-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901B58F1CF66459947E352CA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A74AAF485D37014BDCBA3C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FD6B4FF56837727EAB0B54A /* Pods.debug.xcconfig */,
+				8FDA93E0E290A54626BE372B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B807F0C31310565A21F9C95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CD9F3B2FD48D6AC13A7850D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D59ECAD01C93EA0D0043CFF3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				D59ECAF01C93EA0E0043CFF3 /* SIPTests */,
 				D59ECAFB1C93EA0E0043CFF3 /* SIPUITests */,
 				D59ECADA1C93EA0D0043CFF3 /* Products */,
+				9A74AAF485D37014BDCBA3C4 /* Pods */,
+				9B807F0C31310565A21F9C95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +130,7 @@
 		D59ECADB1C93EA0D0043CFF3 /* SIP */ = {
 			isa = PBXGroup;
 			children = (
+				D5E5E7C81C9D1D3B004D6620 /* SIP-Bridging-Header.h */,
 				D59ECADC1C93EA0D0043CFF3 /* AppDelegate.swift */,
 				D59ECB371C93FAA00043CFF3 /* SipCalculatorViewController.swift */,
 				D59ECB341C93F1E30043CFF3 /* Resources */,
@@ -132,6 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				D59ECB351C93F1E30043CFF3 /* icon_sip_1024.png */,
+				D5BE48931C9C401E00C36DD4 /* Default-568h@2x.png */,
+				D5BE48941C9C401E00C36DD4 /* Default.png */,
+				D5BE48951C9C401E00C36DD4 /* Default@2x.png */,
 			);
 			name = Resources;
 			path = SIP/Resources;
@@ -144,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D59ECB011C93EA0E0043CFF3 /* Build configuration list for PBXNativeTarget "SIP" */;
 			buildPhases = (
+				A9202667DBE757321C7330A6 /* Check Pods Manifest.lock */,
 				D59ECAD51C93EA0D0043CFF3 /* Sources */,
 				D59ECAD61C93EA0D0043CFF3 /* Frameworks */,
 				D59ECAD71C93EA0D0043CFF3 /* Resources */,
+				C3B7E84A8D17F2175CA3941A /* Embed Pods Frameworks */,
+				C2FA68A0939DF181642E9B2A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,8 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D59ECAE71C93EA0E0043CFF3 /* LaunchScreen.storyboard in Resources */,
+				D5BE48971C9C401E00C36DD4 /* Default.png in Resources */,
 				D59ECAE41C93EA0E0043CFF3 /* Assets.xcassets in Resources */,
 				D59ECB361C93F1E30043CFF3 /* icon_sip_1024.png in Resources */,
+				D5BE48961C9C401E00C36DD4 /* Default-568h@2x.png in Resources */,
+				D5BE48981C9C401E00C36DD4 /* Default@2x.png in Resources */,
 				D59ECAE21C93EA0D0043CFF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +305,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9202667DBE757321C7330A6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2FA68A0939DF181642E9B2A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B7E84A8D17F2175CA3941A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D59ECAD51C93EA0D0043CFF3 /* Sources */ = {
@@ -343,6 +432,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -387,6 +477,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -409,29 +500,35 @@
 		};
 		D59ECB021C93EA0E0043CFF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD6B4FF56837727EAB0B54A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.sip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SIP-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		D59ECB031C93EA0E0043CFF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FDA93E0E290A54626BE372B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.sip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SIP-Bridging-Header.h";
 			};
 			name = Release;
 		};
