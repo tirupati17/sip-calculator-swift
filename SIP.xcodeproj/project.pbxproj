@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		901B58F1CF66459947E352CA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD9F3B2FD48D6AC13A7850D /* libPods.a */; };
+		1C7E70F1009CA717A14A6866 /* libPods-SIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 038BA7B71D1D223DF3B52280 /* libPods-SIP.a */; };
 		D59ECADD1C93EA0D0043CFF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59ECADC1C93EA0D0043CFF3 /* AppDelegate.swift */; };
 		D59ECAE21C93EA0D0043CFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59ECAE01C93EA0D0043CFF3 /* Main.storyboard */; };
 		D59ECAE41C93EA0E0043CFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59ECAE31C93EA0E0043CFF3 /* Assets.xcassets */; };
@@ -39,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FD6B4FF56837727EAB0B54A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		7CD9F3B2FD48D6AC13A7850D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FDA93E0E290A54626BE372B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		038BA7B71D1D223DF3B52280 /* libPods-SIP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CB12E0F4F671AF271245B1 /* Pods-SIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SIP/Pods-SIP.debug.xcconfig"; sourceTree = "<group>"; };
+		9E65EC2407A4F7B95F82C05B /* Pods-SIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIP.release.xcconfig"; path = "Pods/Target Support Files/Pods-SIP/Pods-SIP.release.xcconfig"; sourceTree = "<group>"; };
 		D59ECAD91C93EA0D0043CFF3 /* SIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59ECADC1C93EA0D0043CFF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D59ECAE11C93EA0D0043CFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				901B58F1CF66459947E352CA /* libPods.a in Frameworks */,
+				1C7E70F1009CA717A14A6866 /* libPods-SIP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,19 +88,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A74AAF485D37014BDCBA3C4 /* Pods */ = {
+		38938353270FE59AAEF192D3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0FD6B4FF56837727EAB0B54A /* Pods.debug.xcconfig */,
-				8FDA93E0E290A54626BE372B /* Pods.release.xcconfig */,
+				13CB12E0F4F671AF271245B1 /* Pods-SIP.debug.xcconfig */,
+				9E65EC2407A4F7B95F82C05B /* Pods-SIP.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9B807F0C31310565A21F9C95 /* Frameworks */ = {
+		4764D2EAD017BC2EDB3A5A1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7CD9F3B2FD48D6AC13A7850D /* libPods.a */,
+				038BA7B71D1D223DF3B52280 /* libPods-SIP.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,8 +112,8 @@
 				D59ECAF01C93EA0E0043CFF3 /* SIPTests */,
 				D59ECAFB1C93EA0E0043CFF3 /* SIPUITests */,
 				D59ECADA1C93EA0D0043CFF3 /* Products */,
-				9A74AAF485D37014BDCBA3C4 /* Pods */,
-				9B807F0C31310565A21F9C95 /* Frameworks */,
+				38938353270FE59AAEF192D3 /* Pods */,
+				4764D2EAD017BC2EDB3A5A1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,12 +179,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D59ECB011C93EA0E0043CFF3 /* Build configuration list for PBXNativeTarget "SIP" */;
 			buildPhases = (
-				A9202667DBE757321C7330A6 /* Check Pods Manifest.lock */,
+				2C00AD1F61CEDD55C7AAC86D /* [CP] Check Pods Manifest.lock */,
 				D59ECAD51C93EA0D0043CFF3 /* Sources */,
 				D59ECAD61C93EA0D0043CFF3 /* Frameworks */,
 				D59ECAD71C93EA0D0043CFF3 /* Resources */,
-				C3B7E84A8D17F2175CA3941A /* Embed Pods Frameworks */,
-				C2FA68A0939DF181642E9B2A /* Copy Pods Resources */,
+				D5579D151DDEDC8C0074AA6B /* ShellScript */,
+				AFD07D952FA3D775A5E87E31 /* [CP] Embed Pods Frameworks */,
+				E84DB2FBA4E6A2895C3E7D0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,19 +239,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = CelerStudio;
 				TargetAttributes = {
 					D59ECAD81C93EA0D0043CFF3 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 495XWEJ924;
+						LastSwiftMigration = 0800;
 					};
 					D59ECAEC1C93EA0E0043CFF3 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 495XWEJ924;
+						LastSwiftMigration = 0800;
 						TestTargetID = D59ECAD81C93EA0D0043CFF3;
 					};
 					D59ECAF71C93EA0E0043CFF3 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 495XWEJ924;
+						LastSwiftMigration = 0800;
 						TestTargetID = D59ECAD81C93EA0D0043CFF3;
 					};
 				};
@@ -307,49 +313,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A9202667DBE757321C7330A6 /* Check Pods Manifest.lock */ = {
+		2C00AD1F61CEDD55C7AAC86D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C2FA68A0939DF181642E9B2A /* Copy Pods Resources */ = {
+		AFD07D952FA3D775A5E87E31 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SIP/Pods-SIP-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C3B7E84A8D17F2175CA3941A /* Embed Pods Frameworks */ = {
+		D5579D151DDEDC8C0074AA6B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "${PODS_ROOT}/Fabric/run e50ba22faa93a6114e5977a2daee28eb787a15b8 12fcca6ef52c7e25f5ed38468ca26375f51a6b36c55d3d8c7122c18268535675";
+		};
+		E84DB2FBA4E6A2895C3E7D0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SIP/Pods-SIP-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -428,14 +447,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tirupati Balan (495XWEJ924)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tirupati Balan (495XWEJ924)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 495XWEJ924;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -455,6 +477,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "fd94dbe6-809b-4287-9899-bea60db9a877";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -473,14 +496,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tirupati Balan (495XWEJ924)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tirupati Balan (495XWEJ924)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 495XWEJ924;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -493,42 +519,50 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "fd94dbe6-809b-4287-9899-bea60db9a877";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		D59ECB021C93EA0E0043CFF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FD6B4FF56837727EAB0B54A /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 13CB12E0F4F671AF271245B1 /* Pods-SIP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tirupati Balan (495XWEJ924)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tirupati Balan (495XWEJ924)";
+				DEVELOPMENT_TEAM = 495XWEJ924;
 				INFOPLIST_FILE = SIP/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.sip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "fd94dbe6-809b-4287-9899-bea60db9a877";
+				PROVISIONING_PROFILE_SPECIFIER = SIP_CALCULATOR_APP_STORE_18_OCT;
 				SWIFT_OBJC_BRIDGING_HEADER = "SIP-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		D59ECB031C93EA0E0043CFF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FDA93E0E290A54626BE372B /* Pods.release.xcconfig */;
+			baseConfigurationReference = 9E65EC2407A4F7B95F82C05B /* Pods-SIP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tirupati Balan (495XWEJ924)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tirupati Balan (495XWEJ924)";
+				DEVELOPMENT_TEAM = 495XWEJ924;
 				INFOPLIST_FILE = SIP/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.sip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "fd94dbe6-809b-4287-9899-bea60db9a877";
+				PROVISIONING_PROFILE_SPECIFIER = SIP_CALCULATOR_APP_STORE_18_OCT;
 				SWIFT_OBJC_BRIDGING_HEADER = "SIP-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -540,6 +574,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIP.app/SIP";
 			};
 			name = Debug;
@@ -552,6 +587,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIP.app/SIP";
 			};
 			name = Release;
@@ -563,6 +599,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIPUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SIP;
 				USES_XCTRUNNER = YES;
 			};
@@ -575,6 +612,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.celerstudio.SIPUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SIP;
 				USES_XCTRUNNER = YES;
 			};
