@@ -1,5 +1,6 @@
-![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
+![Language](https://img.shields.io/badge/swift-4.2-brightgreen.svg)
 ![License](https://img.shields.io/github/license/JakeLin/SwiftWeather.svg?style=flat)
+[![Build Status](https://travis-ci.org/tirupati17/sip-calculator-swift.svg?branch=master)](https://travis-ci.org/tirupati17/sip-calculator-swift)
 
 ![SIP-Calculator](https://raw.githubusercontent.com/tirupati17/sip-calculator-swift/master/SIP/Resources/iphone_5s.png)
 
