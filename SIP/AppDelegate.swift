@@ -11,6 +11,7 @@ import Fabric
 import Crashlytics
 import GoogleMobileAds
 import UserExperior
+import Appirater
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

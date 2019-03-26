@@ -9,6 +9,4 @@
 #ifndef SIP_Bridging_Header_h
 #define SIP_Bridging_Header_h
 
-#import "Appirater.h"
-
 #endif /* SIP_Bridging_Header_h */

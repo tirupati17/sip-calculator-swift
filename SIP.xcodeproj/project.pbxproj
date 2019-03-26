@@ -19,6 +19,7 @@
 		D5BE48961C9C401E00C36DD4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BE48931C9C401E00C36DD4 /* Default-568h@2x.png */; };
 		D5BE48971C9C401E00C36DD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BE48941C9C401E00C36DD4 /* Default.png */; };
 		D5BE48981C9C401E00C36DD4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5BE48951C9C401E00C36DD4 /* Default@2x.png */; };
+		D5EA9C04224A41BE003B0932 /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EA9C03224A41BE003B0932 /* AppDelegateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		D5BE48941C9C401E00C36DD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D5BE48951C9C401E00C36DD4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D5E5E7C81C9D1D3B004D6620 /* SIP-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SIP-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		D5EA9C03224A41BE003B0932 /* AppDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				D59ECAF11C93EA0E0043CFF3 /* SIPTests.swift */,
+				D5EA9C03224A41BE003B0932 /* AppDelegateTests.swift */,
 				D59ECAF31C93EA0E0043CFF3 /* Info.plist */,
 			);
 			path = SIPTests;
@@ -384,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5EA9C04224A41BE003B0932 /* AppDelegateTests.swift in Sources */,
 				D59ECAF21C93EA0E0043CFF3 /* SIPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
