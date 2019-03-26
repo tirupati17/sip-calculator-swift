@@ -124,7 +124,7 @@ class SipCalculatorViewController: UIViewController, UITableViewDelegate, UITabl
         self.returnAmountField().layer.cornerRadius = 0;
     }
 
-    func sliderValueDidChange(_ sender: UISlider) {
+    @objc func sliderValueDidChange(_ sender: UISlider) {
         if (self.returnAmountField().text == nil || self.returnAmountField().text == "") {
             self.applyRedBorderOnAmount();
             self.tableView.scrollToRow(at: IndexPath.init(row: 0, section: 0), at: .top, animated: true)

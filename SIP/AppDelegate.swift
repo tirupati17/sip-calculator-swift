@@ -9,13 +9,15 @@
 import UIKit
 import Fabric
 import Crashlytics
+import GoogleMobileAds
+import UserExperior
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.defaultInitialization()
         return true
     }
@@ -41,18 +43,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func defaultInitialization() {
-        Fabric.with([Crashlytics.self])
-        Fabric.with([Answers.self])
-        Flurry.startSession("PC2RRXHW3W7283GD5WSV")
-        Flurry.setCrashReportingEnabled(true)
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
         
+        UserExperior.initialize("19b7275d-2f5d-43fd-9f23-add4044ed16f") //Crash report along with user session video recording. Find out more at https://www.userexperior.com
+        Fabric.with([Answers.self])
         Appirater.setAppId("1092822415")
-        Appirater.setDaysUntilPrompt(7)
-        Appirater.setUsesUntilPrompt(5)
-        Appirater.setSignificantEventsUntilPrompt(-1)
-        Appirater.setTimeBeforeReminding(2)
-        Appirater.setDebug(false)
-        Appirater.appLaunched(true)
     }
 }
 
