@@ -6,7 +6,7 @@
 
 SIP calculator calculates the future value of SIP (Systematic Investment Plan) payments.
 
-This app is available in the [AppStore](https://itunes.apple.com/us/app/sip-calculator/id1092822415?ls=1&mt=8). Learn more [here](http://www.celerstudio.com).
+This app is available in the [AppStore](https://itunes.apple.com/in/app/sip-calculator/id1092822415?ls=1&mt=8). Learn more [here](http://www.celerstudio.com).
 
 #Description
 
