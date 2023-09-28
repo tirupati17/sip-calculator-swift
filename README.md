@@ -11,16 +11,6 @@ Sippy: SIP Planner is a financial tool that calculates the future value of Syste
 
 This app is available on the [App Store](https://itunes.apple.com/in/app/sip-calculator/id1092822415?ls=1&mt=8).
 
-## Description
-
-Sippy is designed to help users plan and understand the future value of their SIP investments.
-
-## Features Implemented
-
-- Calculate the future value of SIP payments.
-- User-friendly interface for ease of use.
-- Available on the App Store for iOS users.
-
 ## Getting Started
 
 To set up the project for development:
