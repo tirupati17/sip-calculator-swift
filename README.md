@@ -25,10 +25,6 @@ Sippy utilizes Swift Package Manager for managing dependencies and project setup
 
 We welcome contributions to make Sippy even better! If you have ideas for finance-related features or want to improve existing ones, feel free to contribute.
 
-**Contributors**:
-- [@creative](https://github.com/creative)
-- [Sagar Lengade (LinkedIn)](https://www.linkedin.com/in/sagarlengade)
-
 ### Features
 
 - **iCloud Syncing:** Synchronize and secure investment data across devices.
@@ -40,23 +36,19 @@ We welcome contributions to make Sippy even better! If you have ideas for financ
 
 ### Planned Features
 
-- **Localized Language Support:**  
-  Expand accessibility by adding multiple language options to cater to a global audience, making the app user-friendly for non-English speakers.
+- **Localized Language Support:** Expand accessibility by adding multiple language options to cater to a global audience, making the app user-friendly for non-English speakers.
 
-- **Notifications:**  
-  Enhance user engagement and prompt timely actions by implementing a notification system that sends payment reminders and investment updates.
+- **Notifications:** Enhance user engagement and prompt timely actions by implementing a notification system that sends payment reminders and investment updates.
 
-- **Calculator Integration:**  
-  Improve usability with an integrated calculator for on-the-fly calculations related to SIP investments, simplifying the financial planning process.
+- **Calculator Integration:** Improve usability with an integrated calculator for on-the-fly calculations related to SIP investments, simplifying the financial planning process.
 
-- **Investment Tips or News Feed:**  
-  Foster financial literacy and informed decision-making by offering users a curated feed of investment tips and financial news, keeping them up-to-date with market trends and strategies.
+- **Investment Tips or News Feed:** Foster financial literacy and informed decision-making by offering users a curated feed of investment tips and financial news, keeping them up-to-date with market trends and strategies.
 
 
 Feel free to Fork, edit, and create pull requests to help us achieve these goals!
 
 ## License
 
-Sippy: SIP Planner is released under the MIT License. See [LICENSE](LICENSE) for details.
+Sippy: SIP Planner is released under the GNU General Public License v2.0 License. See [LICENSE.GPL2](LICENSE) for details.
 
 © 2015 CelerStudio. All rights reserved.
