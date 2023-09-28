@@ -49,6 +49,6 @@ Feel free to Fork, edit, and create pull requests to help us achieve these goals
 
 ## License
 
-Sippy: SIP Planner is released under the GNU General Public License v2.0 License. See [LICENSE.GPL2](LICENSE) for details.
+Sippy: SIP Planner is released under the GNU General Public License v2.0 License. See [LICENSE](LICENSE.GPL2) for details.
 
 © 2015 CelerStudio. All rights reserved.
